@@ -6,7 +6,7 @@
 
 DIRS = 	lib \
     	acl altio \
-	cap \
+	cap cgroups \
 	daemons dirs_links \
 	filebuff fileio filelock files filesys getopt \
 	inotify \

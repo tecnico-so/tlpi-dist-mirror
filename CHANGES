@@ -2034,9 +2034,18 @@ for TLPI, available at http://man7.org/tlpi/errata/.
                 Add a -A option, to prevent raising of ambient capabilities.
                 This can be useful to perform experiments that involve only
                 the use of inheritable capabilities.
-		Refactor some code into individual functions.
+                Refactor some code into individual functions.
                 Remove some unnecessary header file includes.
 
 2022-05-26
         namespaces/userns_child_exec.c
                 Write more informative messages for usage errors.
+
+2022-06-05
+        procexec/pdeath_signal.c
+                Various changes to improve readability of program output.
+                Reformat strings in "usage" message.
+
+2022-06-07
+        Makefile
+                Add "cgroups" to list of build directories.
